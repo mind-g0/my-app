@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Your To-Do List</h1>
+        <ul id="todoList" class="todo-list"></ul>
+        <div class="task-form">
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <button onclick="addTask()" class="button">Add Task</button>
+        </div>
+        <button onclick="clearAllTasks()" class="button clear-all">Clear All Tasks</button>
+    </div>
+
+    <script src="assets/js/todo.js"></script>
+</body>
+</html>
